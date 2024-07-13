@@ -1,0 +1,25 @@
+<doctype.html>
+
+   <head>
+
+   <body>
+      <h1>Input types:</h1>
+      <h2>text type:</h2>
+      <label for="fname" ></label>
+         <input type="text" id="fname" name="first name"><br>
+         <h2>Password:</h2>
+         <input type="password" id="password:" name="pass"><br>
+      <label for="password">password</label>
+         </h2>
+         <input type="checkbox">chennai<br>
+         <input type="checkbox">rcb<br>
+         <h2>button type</h2>
+         <input type="button" value="submit"><br>
+         <h2>email</h2>
+         <input type="email">
+         <h2>file choose</h2>
+         <input type="file" value="choose file"><br>
+         <h2>Number</h2>
+               <input type="number" id="quantity" min="0" max="5"><br>
+      
+   </body>     

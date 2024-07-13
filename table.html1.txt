@@ -1,0 +1,24 @@
+             <h2>HTML Table</h2>
+              
+              <table>
+                <tr>
+                  <th>Name</th>
+                  <th>Job  Title</th>
+                  <th>Email address</th>
+                </tr>
+                <tr>
+                  <td>Ragavendra</td>
+                  <td>Web developper</td>
+                  <td>ragava38@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>jeevith</td>
+                  <td>ios developper</td>
+                  <td>jeevith2k@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>vinoth</td>
+                  <td>digital creator</td>
+                  <td>vino12@gmail.com</td>
+                </tr>
+              </table>

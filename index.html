@@ -1,14 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    
-</head>
+<h2>HTML FORMS</h2>
+<h1>text</h1>
+<link rel="stylesheet" href="form.css">
 <body>
-    <h1>hi</h1>
-    <b>hello</b>
+    <h1>submit</h1>
+    <label for="fname":>first name</label><br>
+    <input type="text" id="fname" name="fname" value="ragava" readonly><br>
+    <lable for="lname":>last name</lable><br>
+    <input type="text" id="lname" name="lname" value="manikandan"><br><br>
+    <input type="submit" value="submit"><br>
+
+    <h2>Radio buttons</h2>
     
+        <p>choose your favorite Actor</p>
+        <input type="radio" id="Danush" name="fav_actor" value="Danush">
+        <lable for="Danush">Danush</lable><br>
+        <input type="radio" id="Vijay" name="fav_actor" value="Vijay">
+        <lable for="Vijay">Danush</lable><br>
+        <input type="radio" id="Ajith" name="fav_actor" value="Ajith">
+
+        
+        <lable for="Ajith">Ajith</lable><br>
+
+    <h2>Check box</h2>
+    
+        <p>have you ever gone to any town?</p>
+        <input type="checkbox" id="vizag" name="turist place" value="vizag">
+        <lable for="Vizag">Vizag</lable><br>
+        <input type="checkbox" id="Goa" name="turist place" value="Goa">
+        <lable for="Goa">Goa</lable><br>
+        <input type="checkbox" id="Pondicherry" name="turist place" value="Pondicherry">
+        <lable for="Pondicherry">Pondicherry</lable><br>
+    
+
+    <h2>The select element</h2>
+    
+        <p>Which is your state?</p>
+
+        <label for="State">select your state</label><br>
+    <select id="State" name="State">
+        <option value="Tamilnadu">Tamilnadu</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Visakapattinam">Visakapattinam</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Andhra">Andhra</option>
+    </select>
+
+    <h2>The button element</h2>
+
+        <p>I tell something you click the button :</p>
+        <button type="button" onclick="alert('I love you')">click me!</button>  
+        
+    <h2>File upload</h2>
+        
+        <p>choose the file and any images and videos</p>
+        <label for="my file">select file:</label>
+        <input type="file" id="my file" name="my file"><br><br>
+        <input type="submit" value="submit">
+
+    <h2>email id</h2>
+    
+        <label for="email">email id:</label>
+        <input type="text" name="email id" id="email"placeholder="enter your email id"><br><br>
+
+    <h2>optgroup element</h2>
+    
+         <label for="Royal enfield"
 </body>
-<script src="script.js">
-    console.log("welcome to java script");
-</script>
-</html>

@@ -25,7 +25,11 @@
         <lable for="txtsum">sum</lable><br>
         <input type="text" id="txtsum" value="0" disabled><br><br>
 
+
         <input type="button" value="add" onclick="add()">
+        <input type="button" id="sub" value="sub" onclick="sub()">
+        <input type="button" id="mul" value="mul" onclick="mul()">
+        <input type="button" id="divi" value="divi" onclick="divi()">
 
         
     </div>
@@ -37,6 +41,27 @@
             var num2 = Number(document.getElementById("txtnum2").value);
             var sum = num1 + num2;
             document.getElementById("txtsum").value = String(sum);
+        }
+        function sub()
+        {
+            var num1 = Number(document.getElementById("txtnum1").value);
+            var num2 = Number(document.getElementById("txtnum2").value);
+            var sub = num1 - num2;
+            document.getElementById("txtsum").value = String(sub);
+        }
+        function mul()
+        {
+            var num1= Number(document.getElementById("txtnum1").value);
+            var num2 = Number(document.getElementById("txtnum2").value);
+            var mul = num1*num2;
+            document.getElementById("txtsum").value = String(mul);
+        }
+        function divi()
+        {
+            var num1= Number(document.getElementById("txtnum1").value);
+            var num2 = Number(document.getElementById("txtnum2").value);
+            var divi = num1 / num2;
+            document.getElementById("txtsum").value = String(divi);
         }
 
     </script>

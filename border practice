@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+    <head>
+        <style>
+            p.one {
+                border-style: solid;
+                border-color: red;    
+            }
+            p.two {
+                border-style: solid;
+                border-color: rgb( green);
+            }
+            p.three {
+                border-style: solid;
+                border-color: rgb( blue);
+            }
+        </style>
+<body>
+    <h2> The Border Color Property</h2>

@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <head>
+    <h1 style="text-align: center;">Calculator</h1>
+    <hr>
+    <title>Calculator</title>
     <meta charset="UTF-8">
-    <title>Addition of two Numbers App</title>
+    <link rel="stylesheet" href="cal.css">
     <style type="text/css">
         #container
         {
-            background-color:lightgray;
-            width: 14%;
-            padding: 10px;
+            background-color:#d0bdf4;
+            width: 14%;                                                                                                              `````````````````````````````;
+            border: 10px solid;
+            justify-self: center;
+            margin: 10%;
+            border-radius:50%;
+            padding: 40px;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            
+            
         }
 
     </style>
 </head>
-<body>
+<body style="background-color: ;">
 
     
     <div id="container">
-        <lable for="txtnum1">A:</lable><br>
+        <lable for="txtnum1">No.1</lable><br>
         <input type="text" id="txtnum1" value="0"><br>
 
-        <lable for="txtnum2">B:</lable><br>
+        <lable for="txtnum2">No.2</lable><br>
         <input type="text" id="txtnum2" value="0"><br>
 
         <lable for="txtsum">sum</lable><br>
         <input type="text" id="txtsum" value="0" disabled><br><br>
 
 
-        <input type="button" value="add" onclick="add()">
-        <input type="button" id="sub" value="sub" onclick="sub()">
-        <input type="button" id="mul" value="mul" onclick="mul()">
-        <input type="button" id="divi" value="divi" onclick="divi()">
+        <input type="button" value="+" onclick="add()">
+        <input type="button" id="sub" value="-" onclick="sub()">
+        <input type="button" id="mul" value="*" onclick="mul()">
+        <input type="button" id="divi" value="/" onclick="divi()">
 
         
     </div>
@@ -40,7 +52,7 @@
             var num1 = Number(document.getElementById("txtnum1").value);
             var num2 = Number(document.getElementById("txtnum2").value);
             var sum = num1 + num2;
-            document.getElementById("txtsum").value = String(sum);
+            document.getElementById("txtsum").value = sum;
         }
         function sub()
         {
